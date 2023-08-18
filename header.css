@@ -1,0 +1,107 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(17, 10, 44);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+.logo {
+    width: 120px;
+    height: 35px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.navigation ul li a:hover {
+    color: rgb(117, 165, 184);
+}
+
+.menu-button,
+.close-button {
+    color: white;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    border: solid 2px white;
+    display: none;
+}
+
+@media(max-width:980px){
+    .logo {
+        width: 150px;
+        height: 45px;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .navigation {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(17, 10, 44);
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: 0.5s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .active .navigation {
+        transform: translateX(0%);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .active .close-button {
+        display: block;
+    }
+
+    .active .menu-button {
+        display: none;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation ul li a {
+        font-size: 25px;
+    }
+
+    .menu-button {
+        display: block;
+        z-index: 999;
+    }
+}
