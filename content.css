@@ -1,0 +1,285 @@
+.banner {
+    background-image: linear-gradient(to bottom right, rgb(133, 133, 197), rgb(133, 133, 182), rgb(71, 79, 150), rgb(50, 58, 126), rgb(50, 58, 126), rgb(59, 68, 134), rgb(56, 113, 136), rgb(106, 191, 224), rgb(106, 191, 224));
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    padding: 70px 0px;
+}
+
+.intro {
+    width: 400px;
+    text-align: start;
+}
+
+.main {
+    font-size: 60px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.sub {
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.phone {
+    border-radius: 20px;
+    height: 430px;
+    width: 200px;
+    background-image: url(phone.jpg);
+    background-position: center;
+    background-size: cover;
+    border: solid 9px black;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+.first {
+    width: 500px;
+}
+
+.heading {
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.second {
+    width: 350px;
+}
+
+.second h2 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.second p {
+    font-weight: lighter;
+    word-spacing: 5px;
+    font-size: 15px;
+}
+
+
+.btn {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 25px;
+    border: solid 1px black;
+    background-color: white;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: darkcyan;
+    border: solid 1px darkcyan;
+    color: white;
+}
+
+.features {
+    background-image: linear-gradient(to bottom right, rgb(133, 133, 197), rgb(133, 133, 182), rgb(71, 79, 150), rgb(50, 58, 126), rgb(50, 58, 126), rgb(59, 68, 134), rgb(49, 52, 189), rgb(49, 52, 189));
+    margin-top: 70px;
+    padding: 50px;
+    color: white;
+}
+
+.features-items {
+    display: flex;
+    gap: 80px;
+    font-weight: lighter;
+    margin-top: 100px;
+    text-align: start;
+}
+.feature-cards{
+    background: rgba(255,255,255,0.1);
+    padding: 10px;
+    border-radius: 7px;
+}
+.icon {
+    width: 30px;
+    height: 40px;
+}
+
+.features-items h2 {
+    font-size: 25px;
+    width: 170px;
+}
+
+.work {
+    margin-top: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.app-works {
+    display: flex;
+    gap: 200px;
+}
+
+.app-works .phone {
+    width: 250px;
+    height: 550px;
+}
+
+.app-works h1 {
+    margin-top: 50px;
+}
+
+.app-works h2 {
+    font-weight: lighter;
+    width: 200px;
+}
+
+.app-works p {
+    width: 290px;
+    font-size: 18px;
+    font-weight: lighter;
+    word-spacing: 3px;
+}
+
+.app-works h2:nth-child(2) {
+    margin-top: 50px;
+    flex-direction: row-reverse;
+}
+
+.app-works:nth-child(2) {
+    margin-top: 150px;
+    gap: 80px;
+}
+
+.phone2 {
+    background-image: url(phone\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 270px;
+    border: solid 9px black;
+    border-radius: 20px;
+}
+.story, .forms{
+    background-image: linear-gradient(to bottom right, rgb(133, 133, 197), rgb(133, 133, 182), rgb(71, 79, 150), rgb(50, 58, 126), rgb(50, 58, 126), rgb(59, 68, 134), rgb(56, 113, 136), rgb(106, 191, 224), rgb(106, 191, 224));
+    margin-top: 100px;
+}
+.flexbox-story, .flexbox-form{
+    display: flex;
+    gap: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.flexbox-story .second h2{
+    margin-top: 100px;
+}
+.flexbox-story h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.flexbox-story h2{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.flexbox-story p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.review{
+    width: 50px;
+    height: 40px;
+    color: darkcyan;
+}
+.card{
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px lightgrey;
+    padding: 10px 15px;
+}
+.customers .features-items{
+    gap: 10px;
+}
+.customers .container{
+    width: 70%;
+}
+.customers .container h1{
+    width: 200px;
+}
+.form{
+    display: flex;
+    gap: 10px;
+}
+.form .second{
+    margin-top: 40px;
+}
+.form:nth-child(3){
+    margin-top: 40px;
+}
+.flexbox-form{
+    padding-bottom: 100px;
+}
+input{
+    background: transparent;
+    border-bottom: solid 1px white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    caret-color: white;
+    margin-top: 35px;
+    font-size: 17px;
+    height: 50px;
+}
+input:hover{
+    border-bottom: solid 2px white;
+}
+.textarea{
+    background: transparent;
+    border-bottom: solid 1px white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    caret-color: white;
+    resize: none;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.textarea:hover{
+    border-bottom: solid 2px white;
+}
+.message{
+    margin-top: 30px;
+}
+.email{
+    width: 450px;
+}
+.btn2{
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
